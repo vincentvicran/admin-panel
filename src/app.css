@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+}
+
+.others {
+    flex: 4;
+    background-color: rgb(248, 214, 214);
+    border-radius: 0px 20px 0px 20px;
+}
