@@ -2,6 +2,9 @@
     width: 100%;
     height: 50px;
     background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .topbarWrapper {
@@ -17,15 +20,6 @@
     font-size: 30px;
     color: indigo;
     cursor: pointer;
-}
-
-.topbar {
-    width: 100%;
-    height: 50px;
-    background-color: white;
-    position: sticky;
-    top: 0;
-    z-index: 999;
 }
 
 .topRight {

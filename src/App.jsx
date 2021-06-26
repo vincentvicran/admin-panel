@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Sidebar from './components/sidebar/Sidebar';
 import Topbar from './components/topbar/Topbar';
 import './app.css';
-
+import Home from './pages/home/Home';
 export class App extends Component {
     render() {
         return (
@@ -10,7 +10,7 @@ export class App extends Component {
                 <Topbar />
                 <div className="container">
                     <Sidebar />
-                    <div className="others">Other Pages</div>
+                    <Home />
                 </div>
             </div>
         );

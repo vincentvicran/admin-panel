@@ -1,10 +1,12 @@
 .sidebar {
     flex: 1;
-    height: calc(100vh - 50px);
+    /* veiwheight - sidebar top - container margin up and down 10 each */
+    height: calc(100vh - 50px - 20px);
     background-color: rgb(240, 240, 250);
     border-radius: 0px 20px 0px 20px;
     position: sticky;
     top: 50px;
+    z-index: 1;
 }
 
 .sidebarWrapper {
@@ -41,5 +43,6 @@
 
 .sidebarListItem.active,
 .sidebarListItem:hover {
+    padding: 5px;
     background-color: rgb(214, 214, 252);
 }
