@@ -4,8 +4,10 @@ import Topbar from './components/topbar/Topbar';
 import './app.css';
 import Home from './pages/home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import UserList from './components/userList/UserList';
-import User from './components/user/User';
+import UserList from './pages/userList/UserList';
+import User from './pages/user/User';
+import NewUser from './pages/newUser/NewUser';
+import Products from './pages/products/Products';
 
 export class App extends Component {
     render() {
@@ -23,6 +25,12 @@ export class App extends Component {
                         </Route>
                         <Route path="/user/:id">
                             <User />
+                        </Route>
+                        <Route path="/newUser">
+                            <NewUser />
+                        </Route>
+                        <Route path="/products">
+                            <Products />
                         </Route>
                     </Switch>
                 </div>
